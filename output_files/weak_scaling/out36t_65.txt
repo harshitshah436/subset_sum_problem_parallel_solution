@@ -1,0 +1,3 @@
+Total number of elements in a set: 36000
+Target Sum: 594327
+Subset Sum exists.

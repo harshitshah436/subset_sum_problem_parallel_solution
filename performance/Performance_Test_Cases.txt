@@ -1,0 +1,465 @@
+-----Strong scaling test cases-----
+
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan SubsetSumSeq in10t_100.txt
+Total number of elements in a set: 10000
+Target Sum: 252456
+Subset Sum exists.
+Job 8479 makespan 32654 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=1 SubsetSumSmp in10t_100.txt
+Total number of elements in a set: 10000
+Target Sum: 252456
+Subset Sum exists.
+Job 8480 makespan 23212 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=2 SubsetSumSmp in10t_100.txt
+Total number of elements in a set: 10000
+Target Sum: 252456
+Subset Sum exists.
+Job 8481 makespan 14441 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=3 SubsetSumSmp in10t_100.txt
+Total number of elements in a set: 10000
+Target Sum: 252456
+Subset Sum exists.
+Job 8482 makespan 8317 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=4 SubsetSumSmp in10t_100.txt
+Total number of elements in a set: 10000
+Target Sum: 252456
+Subset Sum exists.
+Job 8483 makespan 7433 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=5 SubsetSumSmp in10t_100.txt
+Total number of elements in a set: 10000
+Target Sum: 252456
+Subset Sum exists.
+Job 8484 makespan 6911 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=6 SubsetSumSmp in10t_100.txt
+Total number of elements in a set: 10000
+Target Sum: 252456
+Subset Sum exists.
+Job 8485 makespan 5877 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=7 SubsetSumSmp in10t_100.txt
+Total number of elements in a set: 10000
+Target Sum: 252456
+Subset Sum exists.
+Job 8486 makespan 5741 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=8 SubsetSumSmp in10t_100.txt
+Total number of elements in a set: 10000
+Target Sum: 252456
+Subset Sum exists.
+Job 8487 makespan 5387 msec
+
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan SubsetSumSeq in20t_50.txt
+Total number of elements in a set: 20000
+Target Sum: 253576
+Subset Sum exists.
+Job 8493 makespan 66872 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=1 SubsetSumSmp in20t_50.txt
+Total number of elements in a set: 20000
+Target Sum: 253576
+Subset Sum exists.
+Job 8494 makespan 49151 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=2 SubsetSumSmp in20t_50.txt
+Total number of elements in a set: 20000
+Target Sum: 253576
+Subset Sum exists.
+Job 8495 makespan 28423 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=3 SubsetSumSmp in20t_50.txt
+Total number of elements in a set: 20000
+Target Sum: 253576
+Subset Sum exists.
+Job 8496 makespan 17548 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=4 SubsetSumSmp in20t_50.txt
+Total number of elements in a set: 20000
+Target Sum: 253576
+Subset Sum exists.
+Job 8497 makespan 15744 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=5 SubsetSumSmp in20t_50.txt
+Total number of elements in a set: 20000
+Target Sum: 253576
+Subset Sum exists.
+Job 8498 makespan 14547 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=6 SubsetSumSmp in20t_50.txt
+Total number of elements in a set: 20000
+Target Sum: 253576
+Subset Sum exists.
+Job 8499 makespan 11741 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=7 SubsetSumSmp in20t_50.txt
+Total number of elements in a set: 20000
+Target Sum: 253576
+Subset Sum exists.
+Job 8500 makespan 11870 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=8 SubsetSumSmp in20t_50.txt
+Total number of elements in a set: 20000
+Target Sum: 253576
+Subset Sum exists.
+Job 8501 makespan 11129 msec
+
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan SubsetSumSeq in30t_50.txt
+Total number of elements in a set: 30000
+Target Sum: 384527
+Subset Sum exists.
+Job 8502 makespan 116190 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=1 SubsetSumSmp in30t_50.txt
+Total number of elements in a set: 30000
+Target Sum: 384527
+Subset Sum exists.
+Job 8503 makespan 97265 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=2 SubsetSumSmp in30t_50.txt
+Total number of elements in a set: 30000
+Target Sum: 384527
+Subset Sum exists.
+Job 8504 makespan 53189 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=3 SubsetSumSmp in30t_50.txt
+Total number of elements in a set: 30000
+Target Sum: 384527
+Subset Sum exists.
+Job 8505 makespan 37788 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=4 SubsetSumSmp in30t_50.txt
+Total number of elements in a set: 30000
+Target Sum: 384527
+Subset Sum exists.
+Job 8506 makespan 31101 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=5 SubsetSumSmp in30t_50.txt
+Total number of elements in a set: 30000
+Target Sum: 384527
+Subset Sum exists.
+Job 8507 makespan 30698 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=6 SubsetSumSmp in30t_50.txt
+Total number of elements in a set: 30000
+Target Sum: 384527
+Subset Sum exists.
+Job 8508 makespan 26787 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=7 SubsetSumSmp in30t_50.txt
+Total number of elements in a set: 30000
+Target Sum: 384527
+Subset Sum exists.
+Job 8509 makespan 25638 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=8 SubsetSumSmp in30t_50.txt
+Total number of elements in a set: 30000
+Target Sum: 384527
+Subset Sum exists.
+Job 8510 makespan 22948 msec
+
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan SubsetSumSeq in50t_25.txt
+Total number of elements in a set: 50000
+Target Sum: 325320
+Subset Sum exists.
+Job 8511 makespan 146797 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=1 SubsetSumSmp in50t_25.txt
+Total number of elements in a set: 50000
+Target Sum: 325320
+Subset Sum exists.
+Job 8512 makespan 146890 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=2 SubsetSumSmp in50t_25.txt
+Total number of elements in a set: 50000
+Target Sum: 325320
+Subset Sum exists.
+Job 8513 makespan 76151 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=3 SubsetSumSmp in50t_25.txt
+Total number of elements in a set: 50000
+Target Sum: 325320
+Subset Sum exists.
+Job 8514 makespan 53252 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=4 SubsetSumSmp in50t_25.txt
+Total number of elements in a set: 50000
+Target Sum: 325320
+Subset Sum exists.
+Job 8515 makespan 45153 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=5 SubsetSumSmp in50t_25.txt
+Total number of elements in a set: 50000
+Target Sum: 325320
+Subset Sum exists.
+Job 8516 makespan 40771 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=6 SubsetSumSmp in50t_25.txt
+Total number of elements in a set: 50000
+Target Sum: 325320
+Subset Sum exists.
+Job 8517 makespan 35524 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=7 SubsetSumSmp in50t_25.txt
+Total number of elements in a set: 50000
+Target Sum: 325320
+Subset Sum exists.
+Job 8518 makespan 36462 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=8 SubsetSumSmp in50t_25.txt
+Total number of elements in a set: 50000
+Target Sum: 325320
+Subset Sum exists.
+Job 8519 makespan 32171 msec
+
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java -Xmx32g pj2 debug=makespan SubsetSumSeq in100t_20.txt
+Total number of elements in a set: 100000
+Target Sum: 524825
+Subset Sum exists.
+Job 622 makespan 685964 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java -Xmx32g pj2 debug=makespan cores=1 SubsetSumSmp in100t_20.txt
+Total number of elements in a set: 100000
+Target Sum: 524825
+Subset Sum exists.
+Job 626 makespan 457961 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java -Xmx32g pj2 debug=makespan cores=2 SubsetSumSmp in100t_20.txt
+Total number of elements in a set: 100000
+Target Sum: 524825
+Subset Sum exists.
+Job 628 makespan 244101 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java -Xmx32g pj2 debug=makespan cores=3 SubsetSumSmp in100t_20.txt
+Total number of elements in a set: 100000
+Target Sum: 524825
+Subset Sum exists.
+Job 630 makespan 177515 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java -Xmx32g pj2 debug=makespan cores=4 SubsetSumSmp in100t_20.txt
+Total number of elements in a set: 100000
+Target Sum: 524825
+Subset Sum exists.
+Job 632 makespan 150848 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java -Xmx32g pj2 debug=makespan cores=5 SubsetSumSmp in100t_20.txt
+Total number of elements in a set: 100000
+Target Sum: 524825
+Subset Sum exists.
+Job 634 makespan 148621 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java -Xmx32g pj2 debug=makespan cores=6 SubsetSumSmp in100t_20.txt
+Total number of elements in a set: 100000
+Target Sum: 524825
+Subset Sum exists.
+Job 636 makespan 121857 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java -Xmx32g pj2 debug=makespan cores=7 SubsetSumSmp in100t_20.txt
+Total number of elements in a set: 100000
+Target Sum: 524825
+Subset Sum exists.
+Job 638 makespan 109952 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java -Xmx32g pj2 debug=makespan cores=8 SubsetSumSmp in100t_20.txt
+Total number of elements in a set: 100000
+Target Sum: 524825
+Subset Sum exists.
+Job 640 makespan 106364 msec
+
+
+
+-----Weak scaling test cases-----
+
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan SubsetSumSeq in2t_1000.txt
+Total number of elements in a set: 2000
+Target Sum: 494796
+Subset Sum exists.
+Job 8221 makespan 12725 msec
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan cores=1 SubsetSumSmp in2t_1000.txt
+Total number of elements in a set: 2000
+Target Sum: 494796
+Subset Sum exists.
+Job 8222 makespan 14594 msec
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan cores=2 SubsetSumSmp in2.7t_1100.txt
+Total number of elements in a set: 2700
+Target Sum: 732498
+Subset Sum exists.
+Job 8232 makespan 12368 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=3 SubsetSumSmp in3.1t_1235.txt
+Total number of elements in a set: 3100
+Target Sum: 949863
+Subset Sum exists.
+Job 8677 makespan 11842 msec
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan cores=4 SubsetSumSmp in3.5t_1300.txt
+Total number of elements in a set: 3500
+Target Sum: 1127567
+Subset Sum exists.
+Job 8245 makespan 11466 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=5 SubsetSumSmp in3.6t_1520.txt
+Total number of elements in a set: 3600
+Target Sum: 1365816
+Subset Sum exists.
+Job 8684 makespan 11314 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=6 SubsetSumSmp in3.7t_1735.txt
+Total number of elements in a set: 3700
+Target Sum: 1596649
+Subset Sum exists.
+Job 8695 makespan 11975 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=7 SubsetSumSmp in3.8t_1919.txt
+Total number of elements in a set: 3800
+Target Sum: 1829415
+Subset Sum exists.
+Job 8705 makespan 11975 msec
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan cores=8 SubsetSumSmp in4t_2000.txt
+Total number of elements in a set: 4000
+Target Sum: 1977588
+Subset Sum exists.
+Job 8254 makespan 13812 msec
+
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan SubsetSumSeq in5t_250.txt
+Total number of elements in a set: 5000
+Target Sum: 315377
+Subset Sum exists.
+Job 8196 makespan 20366 msec
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan cores=1 SubsetSumSmp in5t_250.txt
+Total number of elements in a set: 5000
+Target Sum: 315377
+Subset Sum exists.
+Job 8197 makespan 14002 msec
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan cores=2 SubsetSumSmp in6.5t_300.txt
+Total number of elements in a set: 6500
+Target Sum: 487285
+Subset Sum exists.
+Job 8200 makespan 14433 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=3 SubsetSumSmp in7.2t_365.txt
+Total number of elements in a set: 7200
+Target Sum: 662619
+Subset Sum exists.
+Job 8710 makespan 15573 msec
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan cores=4 SubsetSumSmp in8t_390.txt
+Total number of elements in a set: 8000
+Target Sum: 780347
+Subset Sum exists.
+Job 8205 makespan 14811 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=5 SubsetSumSmp in8.4t_450.txt
+Total number of elements in a set: 8400
+Target Sum: 938518
+Subset Sum exists.
+Job 8720 makespan 15699 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=6 SubsetSumSmp in8.8t_485.txt
+Total number of elements in a set: 8800
+Target Sum: 1083967
+Subset Sum doesn't exist.
+Job 8730 makespan 18105 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=7 SubsetSumSmp in9.2t_520.txt
+Total number of elements in a set: 9200
+Target Sum: 1202380
+Subset Sum exists.
+Job 8740 makespan 18481 msec
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan cores=8 SubsetSumSmp in10t_500.txt
+Total number of elements in a set: 10000
+Target Sum: 1253381
+Subset Sum exists.
+Job 8209 makespan 22255 msec
+
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan SubsetSumSeq in10t_100.txt
+Total number of elements in a set: 10000
+Target Sum: 252456
+Subset Sum exists.
+Job 8479 makespan 32654 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=1 SubsetSumSmp in10t_100.txt
+Total number of elements in a set: 10000
+Target Sum: 252456
+Subset Sum exists.
+Job 8480 makespan 23212 msec
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan cores=2 SubsetSumSmp in12t_140.txt
+Total number of elements in a set: 12000
+Target Sum: 423793
+Subset Sum exists.
+Job 8090 makespan 23208 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=3 SubsetSumSmp in13.5t_165.txt
+Total number of elements in a set: 13500
+Target Sum: 559982
+Subset Sum exists.
+Job 8749 makespan 24297 msec
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan cores=4 SubsetSumSmp in15t_175.txt
+Total number of elements in a set: 15000
+Target Sum: 664256
+Subset Sum exists.
+Job 8095 makespan 25792 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=5 SubsetSumSmp in16t_195.txt
+Total number of elements in a set: 16000
+Target Sum: 788289
+Subset Sum exists.
+Job 8757 makespan 26500 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=6 SubsetSumSmp in17.2t_205.txt
+Total number of elements in a set: 17200
+Target Sum: 881838
+Subset Sum exists.
+Job 8762 makespan 28060 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=7 SubsetSumSmp in18.5t_207.txt
+Total number of elements in a set: 18500
+Target Sum: 962972
+Subset Sum exists.
+Job 8771 makespan 30821 msec
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan  cores=8 SubsetSumSmp in20t_200.txt
+Total number of elements in a set: 20000
+Target Sum: 1000421
+Subset Sum exists.
+Job 8097 makespan 36141 msec
+
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan  SubsetSumSeq in20t_35.txt
+Total number of elements in a set: 20000
+Target Sum: 180420
+Subset Sum exists.
+Job 8155 makespan 47556 msec
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan cores=1 SubsetSumSmp in20t_35.txt
+Total number of elements in a set: 20000
+Target Sum: 180420
+Subset Sum exists.
+Job 8154 makespan 33811 msec
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan cores=2 SubsetSumSmp in25t_45.txt
+Total number of elements in a set: 25000
+Target Sum: 286755
+Subset Sum exists.
+Job 8161 makespan 33502 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=3 SubsetSumSmp in28t_55.txt
+Total number of elements in a set: 28000
+Target Sum: 389878
+Subset Sum exists.
+Job 8775 makespan 36393 msec
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan cores=4 SubsetSumSmp in32t_55.txt
+Total number of elements in a set: 32000
+Target Sum: 450314
+Subset Sum exists.
+Job 8164 makespan 38064 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=5 SubsetSumSmp in34t_62.txt
+Total number of elements in a set: 34000
+Target Sum: 536466
+Subset Sum exists.
+Job 8781 makespan 39607 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=6 SubsetSumSmp in36t_65.txt
+Total number of elements in a set: 36000
+Target Sum: 594327
+Subset Sum exists.
+Job 8787 makespan 41356 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=7 SubsetSumSmp in38t_68.txt
+Total number of elements in a set: 38000
+Target Sum: 654771
+Subset Sum exists.
+Job 8789 makespan 48837 msec
+hrs8207@nessie:~/Desktop$ java pj2 debug=makespan  cores=8 SubsetSumSmp in40t_70.txt
+Total number of elements in a set: 40000
+Target Sum: 711741
+Subset Sum exists.
+Job 8157 makespan 53903 msec
+
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan SubsetSumSeq in50t_25.txt
+Total number of elements in a set: 50000
+Target Sum: 325320
+Subset Sum exists.
+Job 8511 makespan 146797 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java pj2 debug=makespan cores=1 SubsetSumSmp in50t_25.txt
+Total number of elements in a set: 50000
+Target Sum: 325320
+Subset Sum exists.
+Job 8512 makespan 146890 msec
+hrs8207@champ:~/Desktop/Parallel/Team Project$ java -Xmx32g pj2 debug=makespan cores=2 SubsetSumSmp in58t_38.txt
+Total number of elements in a set: 58000
+Target Sum: 564679
+Subset Sum exists.
+Job 3893 makespan 149651 msec
+hrs8207@champ:~/Desktop/Parallel/Team Project$ java -Xmx32g pj2 debug=makespan cores=3 SubsetSumSmp in66t_44.txt
+Total number of elements in a set: 66000
+Target Sum: 739787
+Subset Sum exists.
+Job 3899 makespan 171393 msec
+hrs8207@champ:~/Desktop/Parallel/Team Project$ java -Xmx32g pj2 debug=makespan cores=4 SubsetSumSmp in75t_45.txt
+Total number of elements in a set: 75000
+Target Sum: 865348
+Subset Sum exists.
+Job 3959 makespan 165332 msec
+hrs8207@nessie:~/Desktop/Parallel/Team Project$ java -Xmx32g pj2 debug=makespan cores=5 SubsetSumSmp in82t_47.txt
+Total number of elements in a set: 82000
+Target Sum: 983087
+Subset Sum exists.
+Job 98 makespan 171047 msec
+hrs8207@champ:~/Desktop/Parallel/Team Project$ java -Xmx32g pj2 debug=makespan cores=6 SubsetSumSmp in88t_49.txt
+Total number of elements in a set: 88000
+Target Sum: 1098516
+Subset Sum exists.
+Job 4285 makespan 187407 msec
+hrs8207@champ:~/Desktop/Parallel/Team Project$ java -Xmx64g  pj2 debug=makespan cores=7 SubsetSumSmp in94t_50.txt
+Total number of elements in a set: 94000
+Target Sum: 1196678
+Subset Sum exists.
+Job 4099 makespan 190591 msec
+hrs8207@champ:~/Desktop/Parallel/Team Project$ java -Xmx64g pj2 debug=makespan cores=8 SubsetSumSmp in100t_51.txt
+Total number of elements in a set: 100000
+Target Sum: 1305102
+Subset Sum exists.
+Job 4112 makespan 200441 msec

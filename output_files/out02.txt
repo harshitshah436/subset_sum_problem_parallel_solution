@@ -1,0 +1,4 @@
+SubsetSumSeq: No subset can be found as sum of all elements is odd. It must be even for the 2D table to be made.
+Usage: java pj2 SubsetSumSeq <input_file> [p]
+<input_file> = file containing n objects for a set.
+[p] - optinal parameter p to print the final 2D table.

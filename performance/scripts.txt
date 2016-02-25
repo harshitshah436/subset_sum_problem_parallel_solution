@@ -1,0 +1,107 @@
+# Strong scaling scripts
+java pj2 debug=makespan SubsetSumSeq in10t_100.txt
+java pj2 debug=makespan cores=1 SubsetSumSmp in10t_100.txt
+java pj2 debug=makespan cores=2 SubsetSumSmp in10t_100.txt
+java pj2 debug=makespan cores=3 SubsetSumSmp in10t_100.txt
+java pj2 debug=makespan cores=4 SubsetSumSmp in10t_100.txt
+java pj2 debug=makespan cores=5 SubsetSumSmp in10t_100.txt
+java pj2 debug=makespan cores=6 SubsetSumSmp in10t_100.txt
+java pj2 debug=makespan cores=7 SubsetSumSmp in10t_100.txt
+java pj2 debug=makespan cores=8 SubsetSumSmp in10t_100.txt
+
+
+java pj2 debug=makespan SubsetSumSeq in20t_50.txt
+java pj2 debug=makespan cores=1 SubsetSumSmp in20t_50.txt
+java pj2 debug=makespan cores=2 SubsetSumSmp in20t_50.txt
+java pj2 debug=makespan cores=3 SubsetSumSmp in20t_50.txt
+java pj2 debug=makespan cores=4 SubsetSumSmp in20t_50.txt
+java pj2 debug=makespan cores=5 SubsetSumSmp in20t_50.txt
+java pj2 debug=makespan cores=6 SubsetSumSmp in20t_50.txt
+java pj2 debug=makespan cores=7 SubsetSumSmp in20t_50.txt
+java pj2 debug=makespan cores=8 SubsetSumSmp in20t_50.txt
+
+
+java pj2 debug=makespan SubsetSumSeq in30t_50.txt
+java pj2 debug=makespan cores=1 SubsetSumSmp in30t_50.txt
+java pj2 debug=makespan cores=2 SubsetSumSmp in30t_50.txt
+java pj2 debug=makespan cores=3 SubsetSumSmp in30t_50.txt
+java pj2 debug=makespan cores=4 SubsetSumSmp in30t_50.txt
+java pj2 debug=makespan cores=5 SubsetSumSmp in30t_50.txt
+java pj2 debug=makespan cores=6 SubsetSumSmp in30t_50.txt
+java pj2 debug=makespan cores=7 SubsetSumSmp in30t_50.txt
+java pj2 debug=makespan cores=8 SubsetSumSmp in30t_50.txt
+
+
+java pj2 debug=makespan SubsetSumSeq in50t_25.txt
+java pj2 debug=makespan cores=1 SubsetSumSmp in50t_25.txt
+java pj2 debug=makespan cores=2 SubsetSumSmp in50t_25.txt
+java pj2 debug=makespan cores=3 SubsetSumSmp in50t_25.txt
+java pj2 debug=makespan cores=4 SubsetSumSmp in50t_25.txt
+java pj2 debug=makespan cores=5 SubsetSumSmp in50t_25.txt
+java pj2 debug=makespan cores=6 SubsetSumSmp in50t_25.txt
+java pj2 debug=makespan cores=7 SubsetSumSmp in50t_25.txt
+java pj2 debug=makespan cores=8 SubsetSumSmp in50t_25.txt
+
+java -Xmx32g pj2 debug=makespan SubsetSumSeq in100t_20.txt
+java -Xmx32g pj2 debug=makespan cores=1 SubsetSumSmp in100t_20.txt
+java -Xmx32g pj2 debug=makespan cores=2 SubsetSumSmp in100t_20.txt
+java -Xmx32g pj2 debug=makespan cores=3 SubsetSumSmp in100t_20.txt
+java -Xmx32g pj2 debug=makespan cores=4 SubsetSumSmp in100t_20.txt
+java -Xmx32g pj2 debug=makespan cores=5 SubsetSumSmp in100t_20.txt
+java -Xmx32g pj2 debug=makespan cores=6 SubsetSumSmp in100t_20.txt
+java -Xmx32g pj2 debug=makespan cores=7 SubsetSumSmp in100t_20.txt
+java -Xmx32g pj2 debug=makespan cores=8 SubsetSumSmp in100t_20.txt
+
+
+
+# Weak scaling scripts
+
+java pj2 debug=makespan SubsetSumSeq in2t_1000.txt
+java pj2 debug=makespan cores=1 SubsetSumSmp in2t_1000.txt
+java pj2 debug=makespan cores=2 SubsetSumSmp in2.7t_1100.txt
+java pj2 debug=makespan cores=3 SubsetSumSmp in3.1t_1235.txt
+java pj2 debug=makespan cores=4 SubsetSumSmp in3.5t_1300.txt
+java pj2 debug=makespan cores=5 SubsetSumSmp in3.6t_1520.txt
+java pj2 debug=makespan cores=6 SubsetSumSmp in3.7t_1735.txt
+java pj2 debug=makespan cores=7 SubsetSumSmp in3.8t_1919.txt
+java pj2 debug=makespan cores=8 SubsetSumSmp in4t_2000.txt
+
+java pj2 debug=makespan SubsetSumSeq in5t_250.txt
+java pj2 debug=makespan cores=1 SubsetSumSmp in5t_250.txt
+java pj2 debug=makespan cores=2 SubsetSumSmp in6.5t_300.txt
+java pj2 debug=makespan cores=3 SubsetSumSmp in7.2t_365.txt
+java pj2 debug=makespan cores=4 SubsetSumSmp in8t_390.txt
+java pj2 debug=makespan cores=5 SubsetSumSmp in8.4t_450.txt
+java pj2 debug=makespan cores=6 SubsetSumSmp in8.8t_485.txt
+java pj2 debug=makespan cores=7 SubsetSumSmp in9.2t_520.txt
+java pj2 debug=makespan cores=8 SubsetSumSmp in10t_500.txt
+
+java pj2 debug=makespan SubsetSumSeq in10t_100.txt
+java pj2 debug=makespan cores=1 SubsetSumSmp in10t_100.txt
+java pj2 debug=makespan cores=2 SubsetSumSmp in12t_140.txt
+java pj2 debug=makespan cores=3 SubsetSumSmp in13.5t_165.txt
+java pj2 debug=makespan cores=4 SubsetSumSmp in15t_175.txt
+java pj2 debug=makespan cores=5 SubsetSumSmp in16t_195.txt
+java pj2 debug=makespan cores=6 SubsetSumSmp in17.2t_205.txt
+java pj2 debug=makespan cores=7 SubsetSumSmp in18.5t_207.txt
+java pj2 debug=makespan cores=8 SubsetSumSmp in20t_200.txt
+
+java pj2 debug=makespan  SubsetSumSeq in20t_35.txt
+java pj2 debug=makespan cores=1 SubsetSumSmp in20t_35.txt
+java pj2 debug=makespan cores=2 SubsetSumSmp in25t_45.txt
+java pj2 debug=makespan cores=3 SubsetSumSmp in28t_55.txt
+java pj2 debug=makespan cores=4 SubsetSumSmp in32t_55.txt
+java pj2 debug=makespan cores=5 SubsetSumSmp in34t_62.txt
+java pj2 debug=makespan cores=6 SubsetSumSmp in36t_65.txt
+java pj2 debug=makespan cores=7 SubsetSumSmp in38t_68.txt
+java pj2 debug=makespan  cores=8 SubsetSumSmp in40t_70.txt
+
+java pj2 debug=makespan SubsetSumSeq in50t_25.txt
+java pj2 debug=makespan cores=1 SubsetSumSmp in50t_25.txt
+java -Xmx32g pj2 debug=makespan cores=2 SubsetSumSmp in58t_38.txt
+java -Xmx32g pj2 debug=makespan cores=3 SubsetSumSmp in66t_44.txt
+java -Xmx32g pj2 debug=makespan cores=4 SubsetSumSmp in75t_45.txt
+java -Xmx32g pj2 debug=makespan cores=5 SubsetSumSmp in82t_47.txt
+java -Xmx32g pj2 debug=makespan cores=6 SubsetSumSmp in88t_49.txt
+java -Xmx64g  pj2 debug=makespan cores=7 SubsetSumSmp in94t_50.txt
+java -Xmx64g pj2 debug=makespan cores=8 SubsetSumSmp in100t_51.txt
